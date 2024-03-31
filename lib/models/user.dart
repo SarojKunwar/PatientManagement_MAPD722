@@ -49,8 +49,8 @@ class User {
         isBlocked: json["isBlocked"],
         avatar: json["avatar"],
         token: json["token"],
-        emailVerified: json["email_verified"],
-        phoneVerified: json["phone_verified"],
+        //emailVerified: json["email_verified"],
+        //phoneVerified: json["phone_verified"],
         createdAt: json["created_at"],
         updatedAt: json["updated_at"],
       );

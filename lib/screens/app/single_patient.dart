@@ -236,7 +236,7 @@ class SinglePatient extends StatelessWidget {
                     controller.patientRecords.isEmpty)
                   const CircularProgressIndicator(),
                 if (!controller.patientLoading)
-                  ...controller.patientRecords.map(
+                  ...controller.patientRecords.reversed.map(
                     (e) => Column(
                       children: [
                         Slidable(
